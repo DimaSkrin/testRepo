@@ -168,6 +168,27 @@
               </div>
 
           </section>
+          <section class="form-group">
+            <div class="container">
+              <h3 class="form-group-title">Запрос ставки</h3>
+                <form class="form">
+                  <label class="label-form">
+                      <input type="text" class="input__form-where" placeholder="Откуда">
+                  </label>
+                  <label class="label-form">
+                      <input type="text" class="input__where" placeholder="Куда">
+                  </label>
+                  <label class="label-form">
+                      <input type="text" class="input__name" placeholder="Ваше имя">
+                  </label>
+                  <label class="label-form">
+                    <input type="tel" class="input__phone" name="phone" id="phone" placeholder="+38 (___) ___-__-__" pattern="[0-9]{3}-\d{5}" required>
+                  </label>
+                  <textarea class="form-textarea" name="comment" placeholder="Детали"></textarea>
+                  <button class="form-btn btn">ОТПРАВИТЬ ЗАПРОС НА ОЦЕНКУ</button>
+                </form>
+            </div>
+        </section>
           <section class="contact-information" id="s5">
               
                 <h3 class="contact-information__title">Контактная информация</h3>
@@ -197,48 +218,11 @@
 
             
           </section>
-          <form class="form-group">
-              <div class="form-group container">
-                  <h3 class="form-group-title">Запрос ставки</h3>
-                  <div class="form-group-where">
-                        <div class="form-group-item">
-                        <label for="from_where"></label>
-                        <input type="text" class="input__form-where" id="from_where" placeholder="Откуда">
-                    </div>
-                    <div class="form-group-item">
-                        <label for="where"></label>
-                        <input type="text" class="input__where" id="where" placeholder="Куда">
-                    </div>
-                </div>
-                <div class="form-group-name">
-                        <div class="form-group-item">
-                        <label for="name"></label>
-                        <input type="text" class="input__name" id="name" placeholder="Ваше имя">
-                    </div>
-                    <div class="form-group-item">
-                        <label for="phone"></label>
-                        <input type="tel" class="input__phone" name="phone" id="phone" placeholder="+38 (___) ___-__-__" pattern="[0-9]{3}-\d{5}" required>
-                    </div>
-                    
-                </div>
-                  
-                
-                <div class="form-group-item-comment">
-                    <label for="comment"></label><br>
-                    <textarea style="resize: none" id="comment" name="comment" placeholder="Детали" cols="55" rows="10"></textarea>
-                </div class="form-group-item-comment">
-                <div class="button_form">
-                    <button class="form_btn btn">ОТПРАВИТЬ ЗАПРОС НА ОЦЕНКУ</button>
-                </div>
-                
-             </div>
-             
-          </form>
-
+         
        </main>  
           <footer class="footer">
               <div class="container container__footer">
-                  <div class="sea_servis"></div>
+                  <div class="sea_servis"><a  href="#"><img class="footer__sea_servis" src="./img_png/logo_rgb_rus_vert 1.png" alt="sea servis"></a></div>
                   <div class="footer__client"><h6 class="footer__clien-link">Клиентам</h6>
                       <ul class="footer__client-item">
                           <li class="footer__client-item-list"><a href="#s1" class="footer__client-item-list-link">Услуги</a></li>
@@ -269,10 +253,7 @@
                     </div>
                     
               </div>
-                  
-          </footer>
-          <footer class="footer__two">
-            <div class="footer__basement container">
+                  <div class="footer__basement container">
                 <span class="footer__basement-item">© 2020 МСУ. Логистические услуги.</span>
                 <div class="footer__basement-link">
                 <p class="footer__basement-list"><a href="#">Стать нашим партнером</a></p>
@@ -281,7 +262,7 @@
                 
             </div>
           </footer>
-     
+          
 
 
 
