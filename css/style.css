@@ -775,5 +775,6 @@ margin-top: 29px;
     /* partners */
     .partners__list-item{
         width: calc(100% / 1);
+        margin-bottom: 25px;
     }
 }
